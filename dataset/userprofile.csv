@@ -1,0 +1,801 @@
+user_id,segment,kecamatan
+U00001,Casual,Mulyorejo
+U00002,Casual,Wonocolo
+U00003,Casual,Asemrowo
+U00004,Casual,Benowo
+U00005,Regular,Gunung Anyar
+U00006,VIP,Benowo
+U00007,Casual,Bulak
+U00008,Regular,Lakarsantri
+U00009,Casual,Bubutan
+U00010,Casual,Pakal
+U00011,Regular,Genteng
+U00012,Casual,Wonokromo
+U00013,Regular,Dukuh Pakis
+U00014,Regular,Sukolilo
+U00015,Regular,Karangpilang
+U00016,Casual,Sambikerep
+U00017,Casual,Gayungan
+U00018,VIP,Jambangan
+U00019,Casual,Krembangan
+U00020,Regular,Mulyorejo
+U00021,Regular,Bulak
+U00022,Casual,Mulyorejo
+U00023,Regular,Benowo
+U00024,Regular,Sawahan
+U00025,Casual,Wonocolo
+U00026,Regular,Sambikerep
+U00027,Regular,Jambangan
+U00028,Casual,Krembangan
+U00029,VIP,Wonokromo
+U00030,Regular,Tenggilis Mejoyo
+U00031,VIP,Krembangan
+U00032,Regular,Tambaksari
+U00033,Regular,Mulyorejo
+U00034,VIP,Bulak
+U00035,Regular,Wiyung
+U00036,Regular,Wonokromo
+U00037,Regular,Kenjeran
+U00038,Casual,Gubeng
+U00039,VIP,Asemrowo
+U00040,Regular,Mulyorejo
+U00041,Regular,Wiyung
+U00042,Casual,Asemrowo
+U00043,Casual,Tenggilis Mejoyo
+U00044,VIP,Mulyorejo
+U00045,Regular,Karangpilang
+U00046,Regular,Krembangan
+U00047,Casual,Rungkut
+U00048,Regular,Pakal
+U00049,Casual,Kenjeran
+U00050,Casual,Simokerto
+U00051,Casual,Dukuh Pakis
+U00052,VIP,Tandes
+U00053,Regular,Pakal
+U00054,Regular,Gunung Anyar
+U00055,Casual,Kenjeran
+U00056,Regular,Tambaksari
+U00057,Regular,Mulyorejo
+U00058,VIP,Pabean Cantian
+U00059,VIP,Tenggilis Mejoyo
+U00060,Regular,Genteng
+U00061,Regular,Karangpilang
+U00062,Regular,Karangpilang
+U00063,Casual,Rungkut
+U00064,Regular,Sukomanunggal
+U00065,Regular,Gunung Anyar
+U00066,Regular,Wonocolo
+U00067,Regular,Asemrowo
+U00068,Regular,Semampir
+U00069,Casual,Sambikerep
+U00070,VIP,Bubutan
+U00071,Casual,Wonokromo
+U00072,Casual,Asemrowo
+U00073,Regular,Sambikerep
+U00074,Casual,Asemrowo
+U00075,Regular,Wiyung
+U00076,Regular,Tandes
+U00077,Regular,Gayungan
+U00078,Casual,Tegalsari
+U00079,Regular,Dukuh Pakis
+U00080,VIP,Bubutan
+U00081,Regular,Semampir
+U00082,Regular,Gayungan
+U00083,Regular,Dukuh Pakis
+U00084,VIP,Genteng
+U00085,VIP,Tambaksari
+U00086,Regular,Jambangan
+U00087,Regular,Jambangan
+U00088,VIP,Jambangan
+U00089,Regular,Gayungan
+U00090,VIP,Mulyorejo
+U00091,Casual,Jambangan
+U00092,Regular,Sukolilo
+U00093,Regular,Tenggilis Mejoyo
+U00094,Casual,Dukuh Pakis
+U00095,Casual,Tenggilis Mejoyo
+U00096,Casual,Bubutan
+U00097,Casual,Pakal
+U00098,Casual,Wiyung
+U00099,Regular,Tenggilis Mejoyo
+U00100,Regular,Tambaksari
+U00101,Casual,Gubeng
+U00102,Regular,Benowo
+U00103,Regular,Bubutan
+U00104,Regular,Pakal
+U00105,Regular,Jambangan
+U00106,Regular,Tandes
+U00107,Regular,Tandes
+U00108,Casual,Wiyung
+U00109,Regular,Tambaksari
+U00110,Casual,Sawahan
+U00111,Regular,Gayungan
+U00112,Casual,Sawahan
+U00113,Regular,Rungkut
+U00114,VIP,Wonokromo
+U00115,Casual,Genteng
+U00116,Regular,Tambaksari
+U00117,Regular,Sukolilo
+U00118,Casual,Bubutan
+U00119,Regular,Rungkut
+U00120,Casual,Gayungan
+U00121,Regular,Bulak
+U00122,Casual,Bubutan
+U00123,Casual,Krembangan
+U00124,Regular,Sambikerep
+U00125,Regular,Benowo
+U00126,Regular,Simokerto
+U00127,Casual,Kenjeran
+U00128,Casual,Tenggilis Mejoyo
+U00129,VIP,Rungkut
+U00130,Regular,Jambangan
+U00131,Casual,Tambaksari
+U00132,Regular,Tandes
+U00133,Regular,Krembangan
+U00134,Regular,Asemrowo
+U00135,Regular,Wonocolo
+U00136,Regular,Sawahan
+U00137,VIP,Jambangan
+U00138,Regular,Genteng
+U00139,Regular,Wonocolo
+U00140,Regular,Benowo
+U00141,Regular,Sambikerep
+U00142,Casual,Krembangan
+U00143,Casual,Wonocolo
+U00144,Casual,Karangpilang
+U00145,Casual,Mulyorejo
+U00146,Casual,Sukomanunggal
+U00147,Casual,Wiyung
+U00148,Casual,Semampir
+U00149,Regular,Tenggilis Mejoyo
+U00150,Regular,Mulyorejo
+U00151,Regular,Sukolilo
+U00152,Regular,Bulak
+U00153,Regular,Tegalsari
+U00154,Regular,Wiyung
+U00155,Regular,Wonokromo
+U00156,Regular,Pabean Cantian
+U00157,Regular,Gayungan
+U00158,Regular,Tambaksari
+U00159,Regular,Kenjeran
+U00160,Casual,Wonocolo
+U00161,Regular,Gayungan
+U00162,Regular,Asemrowo
+U00163,Casual,Tenggilis Mejoyo
+U00164,Regular,Sawahan
+U00165,VIP,Karangpilang
+U00166,Casual,Tambaksari
+U00167,Casual,Sukomanunggal
+U00168,VIP,Bulak
+U00169,VIP,Genteng
+U00170,Regular,Gubeng
+U00171,Regular,Mulyorejo
+U00172,Regular,Gayungan
+U00173,Casual,Sukolilo
+U00174,Regular,Sukomanunggal
+U00175,Casual,Gubeng
+U00176,Casual,Kenjeran
+U00177,Casual,Sambikerep
+U00178,Regular,Sambikerep
+U00179,Regular,Krembangan
+U00180,VIP,Pabean Cantian
+U00181,Regular,Pakal
+U00182,Casual,Kenjeran
+U00183,Regular,Wonokromo
+U00184,Casual,Sawahan
+U00185,Regular,Dukuh Pakis
+U00186,Casual,Gubeng
+U00187,Regular,Gayungan
+U00188,VIP,Sukomanunggal
+U00189,Regular,Lakarsantri
+U00190,Regular,Asemrowo
+U00191,Casual,Benowo
+U00192,Regular,Tegalsari
+U00193,Regular,Benowo
+U00194,Casual,Semampir
+U00195,Casual,Wonocolo
+U00196,VIP,Sukolilo
+U00197,Regular,Tegalsari
+U00198,Casual,Mulyorejo
+U00199,Casual,Genteng
+U00200,Regular,Sambikerep
+U00201,Regular,Simokerto
+U00202,Regular,Wonokromo
+U00203,Regular,Sukomanunggal
+U00204,Regular,Rungkut
+U00205,Regular,Dukuh Pakis
+U00206,Regular,Tandes
+U00207,Casual,Genteng
+U00208,Regular,Karangpilang
+U00209,Regular,Karangpilang
+U00210,Regular,Bubutan
+U00211,Regular,Sukolilo
+U00212,VIP,Krembangan
+U00213,Regular,Pakal
+U00214,Casual,Sukomanunggal
+U00215,VIP,Wonokromo
+U00216,Regular,Sukomanunggal
+U00217,VIP,Wiyung
+U00218,Regular,Genteng
+U00219,Regular,Jambangan
+U00220,Casual,Rungkut
+U00221,Casual,Tenggilis Mejoyo
+U00222,Regular,Sukomanunggal
+U00223,Regular,Dukuh Pakis
+U00224,Casual,Asemrowo
+U00225,Regular,Tambaksari
+U00226,Regular,Tandes
+U00227,Regular,Sukolilo
+U00228,Regular,Gayungan
+U00229,Regular,Mulyorejo
+U00230,Casual,Asemrowo
+U00231,Regular,Sukolilo
+U00232,Regular,Tambaksari
+U00233,Regular,Wonocolo
+U00234,Regular,Wonocolo
+U00235,VIP,Asemrowo
+U00236,Regular,Lakarsantri
+U00237,Regular,Gunung Anyar
+U00238,VIP,Benowo
+U00239,Casual,Jambangan
+U00240,Regular,Karangpilang
+U00241,Regular,Mulyorejo
+U00242,Regular,Semampir
+U00243,Regular,Kenjeran
+U00244,Regular,Gubeng
+U00245,VIP,Mulyorejo
+U00246,Regular,Wiyung
+U00247,Regular,Wonocolo
+U00248,Regular,Krembangan
+U00249,Regular,Sambikerep
+U00250,Casual,Wiyung
+U00251,Regular,Jambangan
+U00252,Regular,Pakal
+U00253,Regular,Gunung Anyar
+U00254,Casual,Pakal
+U00255,Casual,Genteng
+U00256,VIP,Rungkut
+U00257,Casual,Wonocolo
+U00258,VIP,Wiyung
+U00259,Casual,Karangpilang
+U00260,Regular,Sukomanunggal
+U00261,Regular,Dukuh Pakis
+U00262,Regular,Gubeng
+U00263,Regular,Krembangan
+U00264,Regular,Simokerto
+U00265,Casual,Sawahan
+U00266,Regular,Benowo
+U00267,Casual,Wonocolo
+U00268,Regular,Krembangan
+U00269,Casual,Simokerto
+U00270,Regular,Wonokromo
+U00271,Regular,Dukuh Pakis
+U00272,Casual,Pabean Cantian
+U00273,Casual,Tenggilis Mejoyo
+U00274,Regular,Bubutan
+U00275,Regular,Genteng
+U00276,VIP,Wiyung
+U00277,Regular,Lakarsantri
+U00278,Casual,Tambaksari
+U00279,Regular,Gunung Anyar
+U00280,Casual,Tegalsari
+U00281,Casual,Simokerto
+U00282,Regular,Krembangan
+U00283,Casual,Pabean Cantian
+U00284,Casual,Asemrowo
+U00285,Regular,Bubutan
+U00286,Regular,Dukuh Pakis
+U00287,VIP,Tambaksari
+U00288,Regular,Bubutan
+U00289,Regular,Gayungan
+U00290,Regular,Pakal
+U00291,Casual,Sukomanunggal
+U00292,Casual,Gayungan
+U00293,VIP,Gubeng
+U00294,Casual,Simokerto
+U00295,Regular,Sukolilo
+U00296,Regular,Mulyorejo
+U00297,Regular,Tegalsari
+U00298,Casual,Semampir
+U00299,Regular,Genteng
+U00300,Regular,Genteng
+U00301,Regular,Wiyung
+U00302,Regular,Pabean Cantian
+U00303,Regular,Sawahan
+U00304,Regular,Krembangan
+U00305,Casual,Tenggilis Mejoyo
+U00306,Regular,Kenjeran
+U00307,Regular,Tambaksari
+U00308,Regular,Simokerto
+U00309,Casual,Wonokromo
+U00310,Casual,Mulyorejo
+U00311,Regular,Tambaksari
+U00312,Regular,Mulyorejo
+U00313,Regular,Bulak
+U00314,VIP,Sambikerep
+U00315,Casual,Gubeng
+U00316,Casual,Dukuh Pakis
+U00317,Regular,Mulyorejo
+U00318,VIP,Gubeng
+U00319,Regular,Bubutan
+U00320,Regular,Gubeng
+U00321,Casual,Bubutan
+U00322,Regular,Kenjeran
+U00323,Casual,Bulak
+U00324,Regular,Karangpilang
+U00325,VIP,Sukomanunggal
+U00326,Regular,Pabean Cantian
+U00327,VIP,Sambikerep
+U00328,VIP,Bulak
+U00329,VIP,Wonokromo
+U00330,Regular,Karangpilang
+U00331,Regular,Genteng
+U00332,Casual,Lakarsantri
+U00333,Regular,Genteng
+U00334,Casual,Pabean Cantian
+U00335,Casual,Jambangan
+U00336,Regular,Genteng
+U00337,Regular,Pabean Cantian
+U00338,VIP,Tandes
+U00339,VIP,Tegalsari
+U00340,Regular,Rungkut
+U00341,VIP,Wonocolo
+U00342,Regular,Wiyung
+U00343,Regular,Genteng
+U00344,Regular,Gunung Anyar
+U00345,Casual,Tegalsari
+U00346,Regular,Lakarsantri
+U00347,Casual,Mulyorejo
+U00348,Regular,Rungkut
+U00349,Regular,Tegalsari
+U00350,Casual,Jambangan
+U00351,VIP,Mulyorejo
+U00352,VIP,Pabean Cantian
+U00353,Casual,Pabean Cantian
+U00354,Regular,Genteng
+U00355,VIP,Semampir
+U00356,Regular,Rungkut
+U00357,Regular,Sukolilo
+U00358,Regular,Sawahan
+U00359,Casual,Karangpilang
+U00360,VIP,Gunung Anyar
+U00361,Regular,Jambangan
+U00362,Casual,Dukuh Pakis
+U00363,Regular,Tambaksari
+U00364,VIP,Tandes
+U00365,Regular,Genteng
+U00366,Regular,Bulak
+U00367,Regular,Simokerto
+U00368,Regular,Sukomanunggal
+U00369,Regular,Wiyung
+U00370,Casual,Rungkut
+U00371,Regular,Tegalsari
+U00372,Regular,Simokerto
+U00373,Regular,Kenjeran
+U00374,VIP,Karangpilang
+U00375,Casual,Gunung Anyar
+U00376,Regular,Wiyung
+U00377,Regular,Lakarsantri
+U00378,Casual,Simokerto
+U00379,Casual,Gubeng
+U00380,Regular,Pabean Cantian
+U00381,Regular,Tegalsari
+U00382,Regular,Tambaksari
+U00383,Regular,Wonocolo
+U00384,Casual,Semampir
+U00385,Casual,Bulak
+U00386,Regular,Krembangan
+U00387,Casual,Sawahan
+U00388,Regular,Gayungan
+U00389,Regular,Asemrowo
+U00390,Regular,Krembangan
+U00391,VIP,Wiyung
+U00392,Regular,Gubeng
+U00393,Regular,Gayungan
+U00394,Regular,Asemrowo
+U00395,Casual,Benowo
+U00396,Casual,Karangpilang
+U00397,Casual,Lakarsantri
+U00398,VIP,Tandes
+U00399,VIP,Genteng
+U00400,Regular,Sawahan
+U00401,Regular,Lakarsantri
+U00402,Casual,Lakarsantri
+U00403,Casual,Bulak
+U00404,VIP,Semampir
+U00405,Casual,Sukomanunggal
+U00406,VIP,Bulak
+U00407,Casual,Sukomanunggal
+U00408,Casual,Wonocolo
+U00409,Regular,Kenjeran
+U00410,Regular,Krembangan
+U00411,Regular,Sambikerep
+U00412,Casual,Rungkut
+U00413,Regular,Wonocolo
+U00414,Casual,Semampir
+U00415,Regular,Sambikerep
+U00416,Regular,Kenjeran
+U00417,Regular,Tenggilis Mejoyo
+U00418,Regular,Bubutan
+U00419,Regular,Sukomanunggal
+U00420,VIP,Gunung Anyar
+U00421,Casual,Wonokromo
+U00422,Regular,Tandes
+U00423,VIP,Sawahan
+U00424,Regular,Asemrowo
+U00425,Regular,Simokerto
+U00426,Regular,Gayungan
+U00427,Casual,Wiyung
+U00428,Regular,Tambaksari
+U00429,Regular,Rungkut
+U00430,VIP,Wonokromo
+U00431,Regular,Bulak
+U00432,Casual,Sukolilo
+U00433,VIP,Wiyung
+U00434,Regular,Tegalsari
+U00435,Casual,Gunung Anyar
+U00436,Regular,Sukomanunggal
+U00437,VIP,Gubeng
+U00438,Regular,Benowo
+U00439,Casual,Lakarsantri
+U00440,Regular,Pabean Cantian
+U00441,Regular,Tenggilis Mejoyo
+U00442,Regular,Tandes
+U00443,Regular,Tandes
+U00444,Regular,Mulyorejo
+U00445,Casual,Rungkut
+U00446,VIP,Karangpilang
+U00447,VIP,Tambaksari
+U00448,Regular,Gayungan
+U00449,Regular,Tandes
+U00450,Casual,Tambaksari
+U00451,Casual,Tegalsari
+U00452,Casual,Sawahan
+U00453,Regular,Karangpilang
+U00454,Regular,Dukuh Pakis
+U00455,Regular,Lakarsantri
+U00456,VIP,Semampir
+U00457,Regular,Tegalsari
+U00458,VIP,Bulak
+U00459,Regular,Krembangan
+U00460,Casual,Gayungan
+U00461,Regular,Simokerto
+U00462,VIP,Karangpilang
+U00463,Regular,Lakarsantri
+U00464,Regular,Gubeng
+U00465,Casual,Gayungan
+U00466,VIP,Tambaksari
+U00467,Regular,Genteng
+U00468,Regular,Bubutan
+U00469,Regular,Gayungan
+U00470,Casual,Mulyorejo
+U00471,Regular,Sukomanunggal
+U00472,Casual,Pakal
+U00473,Casual,Bulak
+U00474,Regular,Mulyorejo
+U00475,Casual,Tegalsari
+U00476,Regular,Tandes
+U00477,VIP,Genteng
+U00478,Regular,Genteng
+U00479,Regular,Jambangan
+U00480,Regular,Tandes
+U00481,Regular,Sukolilo
+U00482,Regular,Bulak
+U00483,Casual,Benowo
+U00484,Regular,Sawahan
+U00485,Casual,Tandes
+U00486,VIP,Benowo
+U00487,VIP,Mulyorejo
+U00488,Regular,Benowo
+U00489,Casual,Pabean Cantian
+U00490,Regular,Wonokromo
+U00491,Casual,Sawahan
+U00492,Casual,Mulyorejo
+U00493,Regular,Gayungan
+U00494,Regular,Pakal
+U00495,Casual,Wonokromo
+U00496,Regular,Krembangan
+U00497,Regular,Dukuh Pakis
+U00498,Regular,Pabean Cantian
+U00499,Regular,Benowo
+U00500,Regular,Krembangan
+U00501,Casual,Dukuh Pakis
+U00502,VIP,Sambikerep
+U00503,Casual,Pabean Cantian
+U00504,Casual,Pabean Cantian
+U00505,VIP,Sukolilo
+U00506,Regular,Tandes
+U00507,Casual,Benowo
+U00508,Casual,Gunung Anyar
+U00509,Regular,Gunung Anyar
+U00510,Regular,Tegalsari
+U00511,Regular,Mulyorejo
+U00512,Regular,Lakarsantri
+U00513,Casual,Sawahan
+U00514,Casual,Wiyung
+U00515,Regular,Gunung Anyar
+U00516,Regular,Jambangan
+U00517,VIP,Tambaksari
+U00518,Casual,Pakal
+U00519,Regular,Tandes
+U00520,VIP,Sawahan
+U00521,Casual,Benowo
+U00522,VIP,Tegalsari
+U00523,Regular,Jambangan
+U00524,VIP,Bulak
+U00525,Regular,Wonokromo
+U00526,Regular,Bubutan
+U00527,Regular,Tandes
+U00528,Regular,Dukuh Pakis
+U00529,Regular,Benowo
+U00530,Regular,Tambaksari
+U00531,VIP,Bulak
+U00532,Regular,Pabean Cantian
+U00533,Regular,Wiyung
+U00534,Casual,Kenjeran
+U00535,Casual,Dukuh Pakis
+U00536,VIP,Lakarsantri
+U00537,Regular,Simokerto
+U00538,Regular,Sawahan
+U00539,Regular,Rungkut
+U00540,Regular,Tandes
+U00541,Regular,Dukuh Pakis
+U00542,Casual,Pabean Cantian
+U00543,Casual,Krembangan
+U00544,Regular,Tenggilis Mejoyo
+U00545,Regular,Lakarsantri
+U00546,Casual,Tambaksari
+U00547,Regular,Rungkut
+U00548,Regular,Wonokromo
+U00549,Regular,Mulyorejo
+U00550,VIP,Asemrowo
+U00551,Regular,Wonocolo
+U00552,VIP,Gubeng
+U00553,Regular,Tandes
+U00554,Regular,Mulyorejo
+U00555,Regular,Sawahan
+U00556,Regular,Tandes
+U00557,Regular,Mulyorejo
+U00558,Regular,Dukuh Pakis
+U00559,Regular,Dukuh Pakis
+U00560,Regular,Gayungan
+U00561,Regular,Dukuh Pakis
+U00562,Regular,Pabean Cantian
+U00563,Regular,Tegalsari
+U00564,Regular,Pakal
+U00565,Regular,Wonocolo
+U00566,Regular,Sambikerep
+U00567,Regular,Dukuh Pakis
+U00568,Regular,Gunung Anyar
+U00569,Regular,Tambaksari
+U00570,Regular,Tenggilis Mejoyo
+U00571,Regular,Rungkut
+U00572,Casual,Lakarsantri
+U00573,Regular,Wiyung
+U00574,Regular,Krembangan
+U00575,Regular,Lakarsantri
+U00576,Regular,Mulyorejo
+U00577,Regular,Tambaksari
+U00578,VIP,Benowo
+U00579,Regular,Simokerto
+U00580,Casual,Rungkut
+U00581,Regular,Gunung Anyar
+U00582,Regular,Pakal
+U00583,Regular,Sambikerep
+U00584,Regular,Tenggilis Mejoyo
+U00585,Casual,Semampir
+U00586,Regular,Sukomanunggal
+U00587,Regular,Pabean Cantian
+U00588,Regular,Rungkut
+U00589,Casual,Sawahan
+U00590,Casual,Kenjeran
+U00591,Casual,Tenggilis Mejoyo
+U00592,Regular,Jambangan
+U00593,Regular,Pabean Cantian
+U00594,VIP,Asemrowo
+U00595,Casual,Wiyung
+U00596,Casual,Lakarsantri
+U00597,Regular,Genteng
+U00598,VIP,Krembangan
+U00599,Casual,Semampir
+U00600,Regular,Tegalsari
+U00601,Regular,Gayungan
+U00602,Casual,Rungkut
+U00603,Regular,Semampir
+U00604,VIP,Genteng
+U00605,Regular,Mulyorejo
+U00606,VIP,Gayungan
+U00607,Regular,Pabean Cantian
+U00608,Casual,Gunung Anyar
+U00609,Casual,Bulak
+U00610,Regular,Wonokromo
+U00611,VIP,Wonokromo
+U00612,Casual,Sukolilo
+U00613,Casual,Dukuh Pakis
+U00614,Casual,Benowo
+U00615,Regular,Genteng
+U00616,VIP,Gubeng
+U00617,Regular,Sukolilo
+U00618,Casual,Genteng
+U00619,Regular,Pabean Cantian
+U00620,Casual,Sukomanunggal
+U00621,Casual,Kenjeran
+U00622,Casual,Benowo
+U00623,Casual,Wonocolo
+U00624,Regular,Gayungan
+U00625,Regular,Tambaksari
+U00626,Regular,Tenggilis Mejoyo
+U00627,Regular,Bubutan
+U00628,Regular,Wonokromo
+U00629,Regular,Krembangan
+U00630,Casual,Simokerto
+U00631,Regular,Jambangan
+U00632,Casual,Wiyung
+U00633,Regular,Wiyung
+U00634,Regular,Jambangan
+U00635,Regular,Gubeng
+U00636,Casual,Sawahan
+U00637,Regular,Gubeng
+U00638,Regular,Sukolilo
+U00639,Regular,Bubutan
+U00640,Regular,Krembangan
+U00641,Regular,Rungkut
+U00642,Casual,Sukolilo
+U00643,Casual,Jambangan
+U00644,Regular,Karangpilang
+U00645,Regular,Lakarsantri
+U00646,VIP,Asemrowo
+U00647,Casual,Bulak
+U00648,Regular,Kenjeran
+U00649,Regular,Pabean Cantian
+U00650,Regular,Wiyung
+U00651,Regular,Pabean Cantian
+U00652,Regular,Tambaksari
+U00653,Casual,Rungkut
+U00654,Regular,Sukolilo
+U00655,Casual,Gayungan
+U00656,VIP,Wonokromo
+U00657,Regular,Jambangan
+U00658,Regular,Wiyung
+U00659,Regular,Gunung Anyar
+U00660,Casual,Krembangan
+U00661,Casual,Wonokromo
+U00662,Regular,Gayungan
+U00663,Casual,Tambaksari
+U00664,Regular,Lakarsantri
+U00665,Regular,Gunung Anyar
+U00666,Casual,Pakal
+U00667,Regular,Asemrowo
+U00668,Regular,Mulyorejo
+U00669,Regular,Pakal
+U00670,Regular,Tambaksari
+U00671,Casual,Karangpilang
+U00672,VIP,Lakarsantri
+U00673,Regular,Tenggilis Mejoyo
+U00674,Regular,Tambaksari
+U00675,Regular,Sukolilo
+U00676,Regular,Wiyung
+U00677,Regular,Gubeng
+U00678,Regular,Simokerto
+U00679,Regular,Tegalsari
+U00680,VIP,Sawahan
+U00681,VIP,Sambikerep
+U00682,VIP,Rungkut
+U00683,Casual,Krembangan
+U00684,Regular,Wonocolo
+U00685,Regular,Asemrowo
+U00686,Regular,Wonocolo
+U00687,Regular,Tandes
+U00688,Casual,Lakarsantri
+U00689,Casual,Genteng
+U00690,Regular,Krembangan
+U00691,Casual,Wonokromo
+U00692,Casual,Genteng
+U00693,Casual,Mulyorejo
+U00694,Casual,Lakarsantri
+U00695,Regular,Krembangan
+U00696,Regular,Krembangan
+U00697,Regular,Pabean Cantian
+U00698,Regular,Wiyung
+U00699,Casual,Jambangan
+U00700,Regular,Semampir
+U00701,Casual,Pabean Cantian
+U00702,Regular,Simokerto
+U00703,Regular,Gayungan
+U00704,Regular,Tambaksari
+U00705,Casual,Kenjeran
+U00706,Regular,Asemrowo
+U00707,Regular,Sawahan
+U00708,Regular,Benowo
+U00709,Regular,Lakarsantri
+U00710,Casual,Tegalsari
+U00711,Regular,Sukolilo
+U00712,Regular,Karangpilang
+U00713,Regular,Genteng
+U00714,Regular,Wonocolo
+U00715,Casual,Mulyorejo
+U00716,Regular,Sukomanunggal
+U00717,VIP,Sukolilo
+U00718,Regular,Tandes
+U00719,Regular,Sukolilo
+U00720,Regular,Pakal
+U00721,Regular,Rungkut
+U00722,VIP,Karangpilang
+U00723,Regular,Jambangan
+U00724,Casual,Tambaksari
+U00725,Regular,Bubutan
+U00726,Regular,Pakal
+U00727,Regular,Sukolilo
+U00728,Casual,Mulyorejo
+U00729,VIP,Benowo
+U00730,Regular,Asemrowo
+U00731,Regular,Sukomanunggal
+U00732,VIP,Wiyung
+U00733,VIP,Simokerto
+U00734,Casual,Rungkut
+U00735,VIP,Tandes
+U00736,Regular,Genteng
+U00737,Regular,Tambaksari
+U00738,Casual,Dukuh Pakis
+U00739,Casual,Sukomanunggal
+U00740,Regular,Genteng
+U00741,Regular,Gayungan
+U00742,Casual,Jambangan
+U00743,Regular,Sukolilo
+U00744,Regular,Sukomanunggal
+U00745,Regular,Sukolilo
+U00746,VIP,Tenggilis Mejoyo
+U00747,Casual,Sambikerep
+U00748,Casual,Tandes
+U00749,Regular,Gunung Anyar
+U00750,Casual,Kenjeran
+U00751,Regular,Tandes
+U00752,Regular,Krembangan
+U00753,Casual,Jambangan
+U00754,Regular,Gayungan
+U00755,Regular,Sawahan
+U00756,Regular,Jambangan
+U00757,Regular,Dukuh Pakis
+U00758,VIP,Gunung Anyar
+U00759,Regular,Jambangan
+U00760,Regular,Semampir
+U00761,Casual,Sukolilo
+U00762,Casual,Wiyung
+U00763,Casual,Genteng
+U00764,Regular,Sukolilo
+U00765,VIP,Mulyorejo
+U00766,Regular,Simokerto
+U00767,Regular,Tenggilis Mejoyo
+U00768,VIP,Tambaksari
+U00769,VIP,Pakal
+U00770,Regular,Dukuh Pakis
+U00771,Casual,Pakal
+U00772,Regular,Benowo
+U00773,Casual,Gayungan
+U00774,Regular,Sambikerep
+U00775,Regular,Pakal
+U00776,Casual,Wonocolo
+U00777,Regular,Gayungan
+U00778,Casual,Sambikerep
+U00779,Casual,Dukuh Pakis
+U00780,Regular,Gunung Anyar
+U00781,Regular,Mulyorejo
+U00782,Casual,Mulyorejo
+U00783,Regular,Mulyorejo
+U00784,Regular,Jambangan
+U00785,Casual,Genteng
+U00786,Casual,Gunung Anyar
+U00787,Regular,Tambaksari
+U00788,Casual,Kenjeran
+U00789,Regular,Gunung Anyar
+U00790,Casual,Sukomanunggal
+U00791,Regular,Gunung Anyar
+U00792,Regular,Lakarsantri
+U00793,Casual,Sambikerep
+U00794,Casual,Tenggilis Mejoyo
+U00795,Regular,Jambangan
+U00796,VIP,Pakal
+U00797,Casual,Bulak
+U00798,Casual,Tegalsari
+U00799,Casual,Pabean Cantian
+U00800,Regular,Simokerto
