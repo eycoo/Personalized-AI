@@ -1,1 +1,22 @@
+# Core ML libraries
+torch>=2.0.0
+pandas>=1.5.0
+numpy>=1.21.0
+scikit-learn>=1.0.0
+
+# Data processing
+pyarrow>=10.0.0
+tqdm>=4.60.0
+
+# Configuration and utilities
+pyyaml>=6.0
+colorama>=0.4.6
+click>=8.1.0
+
+# Optional: for distributed computing
+# dask>=2023.0.0
+# distributed>=2023.0.0
+
+# Note: transformers4rec removed due to compatibility issues
+# Using custom TransformerRecModel instead
 
