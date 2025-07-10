@@ -13,7 +13,7 @@ project/
 ├─ models/
 │  └─ transformer_discount.pt  # checkpoint model
 ├─ notebooks/
-│  └─ pipeline.ipynb         # notebook all-in-one: preprocessing, training, inference
+│  └─ main.ipynb             # notebook all-in-one: preprocessing, training, inference
 ├─ requirements.txt          # dependencies global
 └─ README.md                 # file ini
 ```
