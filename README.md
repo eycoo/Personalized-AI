@@ -109,8 +109,3 @@ curl -X POST https://huggingface.co/spaces/your-username/discount-recommender/ru
 
 ---
 
-## 7. Kontak & Lisensi
-
-* **Tim:** \[Nama Tim]
-* **Email:** [your-team@example.com](mailto:your-team@example.com)
-* **License:** MIT
