@@ -1,8 +1,6 @@
-# Personalized-AI
-
 # AI Discount Recommendation System
 
-README ini menjelaskan cara menggunakan keseluruhan pipeline AI kamu, mulai dari preprocessing, training, batch inference, realtime inference, hingga deployment.
+README ini menjelaskan cara menggunakan seluruh pipeline AI kamu—mulai dari preprocessing, training, hingga deploy ke Hugging Face Spaces—tanpa Docker atau Streamlit.
 
 ---
 
@@ -10,22 +8,13 @@ README ini menjelaskan cara menggunakan keseluruhan pipeline AI kamu, mulai dari
 
 ```
 project/
-├─ data/
-│  ├─ raw/                   # file mentah (.csv, dsb.)
-│  └─ processed_data/        # sequence_data_full.csv hasil pipeline
+├─ data/                     # CSV mentah: transaksi, sessions, userprofile, dll.
+│  └─ processed_data/        # sequence_data_full.csv hasil preprocessing
 ├─ models/
-│  └─ transformer_discount.pt  # model hasil training
-├─ app/
-│  ├─ main.py                # FastAPI entry point
-│  ├─ model.py               # load + predict helper
-│  └─ schemas.py             # request/response Pydantic
+│  └─ transformer_discount.pt  # checkpoint model
 ├─ notebooks/
 │  └─ pipeline.ipynb         # notebook all-in-one: preprocessing, training, inference
-├─ requirements.txt          # dependencies
-├─ Dockerfile                # container setup
-├─ Model_TeamX.txt           # Hugging Face model URL
-├─ Dataset_TeamX.txt         # Hugging Face dataset URL
-├─ Kode_TeamX.txt            # GitHub repo URL
+├─ requirements.txt          # dependencies global
 └─ README.md                 # file ini
 ```
 
@@ -34,122 +23,97 @@ project/
 ## 2. Prasyarat
 
 * Python ≥3.9
-* Git, Git LFS
-* CUDA (opsional untuk training GPU)
-* Token Hugging Face CLI
+* Git & Git LFS
+* Token Hugging Face CLI (untuk push model/dataset)
 
-Instalasi dependencies:
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
-```
-
-di mana `requirements.txt` memuat:
-
-```
-pandas==1.5.3
-numpy==1.24.2
-scikit-learn==1.2.2
-torch==2.0.1
-fastapi==0.95.1
-uvicorn==0.22.0
-huggingface_hub==0.17.1
-python-dotenv==1.0.0
-pyyaml==6.0
 ```
 
 ---
 
 ## 3. Notebook All-in-One (`pipeline.ipynb`)
 
-1. **Preprocessing**: baca folder `data/raw/`, bersihkan semua tabel (transaksi, sessions, userprofile, dll.), kemudian merge & build sequence lalu simpan ke `data/processed_data/sequence_data_full.csv`.
-2. **Training**: jalankan sel definisi model & training loop; output model tersimpan di `models/transformer_discount.pt`.
-3. **Batch Inference**: sel `run_inference_batch` menghasilkan file `data/predictions/discount_preds.csv`.
-4. **Realtime Inference**: sel `realtime_inference_user()` dan `realtime_recommendation()` untuk mem-proses on-the-fly.
-5. **Discount Strategy**: mapping prediksi→% diskon dan rules tambahan, output `data/strategies/discount_strategy.csv`.
-6. **Recommendation**: fungsi `recommend_favorite_item()` untuk notif item favorit di window waktu.
+1. **Preprocessing**
+
+   * Jalankan sel Python untuk load CSV di `data/raw/`
+   * Bersihkan (timestamp, LabelEncoding, agregasi) dan merge semua tabel
+   * Simpan sequence ke `data/processed_data/sequence_data_full.csv`
+2. **Training**
+
+   * Definisikan `TransformerDiscount` + PositionalEncoding
+   * Training loop dengan class‐weighted CrossEntropyLoss
+   * Simpan model ke `models/transformer_discount.pt`
+3. **Batch Inference**
+
+   * Fungsi `run_inference_batch()` menghasilkan `data/predictions/discount_preds.csv`
+4. **Realtime Inference & Recommendation**
+
+   * Fungsi `realtime_inference_user()` + `realtime_recommendation()`
+   * Kirim notifikasi diskon + rekomendasi item favorit di time window (lunch/dinner)
+5. **Discount Strategy**
+
+   * Mapping kelas → % diskon + rule tambahan (misal recency)
 
 ---
 
-## 4. Cara Pakai REST API (FastAPI)
+## 4. Deploy ke Hugging Face Spaces (Gradio)
 
-1. **Build dan Run**:
+1. **Buat Space** di [https://huggingface.co/spaces](https://huggingface.co/spaces) → klik New Space → pilih template Gradio → set public
+2. **Copy ke folder `app/spaces/`**:
 
-   ```bash
-   cd app
-   uvicorn main:app --reload --host 0.0.0.0 --port 8000
+   * `app.py`   → Gradio UI + inference logic (lihat contoh di notebook)
+   * `requirements.txt` → hanya dependencies untuk Spaces
+3. **Koneksikan model dari HF Hub**:
+
+   ```python
+   from huggingface_hub import hf_hub_download
+   pt_path = hf_hub_download(
+       repo_id="your-username/your-model-name",
+       filename="transformer_discount.pt"
+   )
    ```
-2. **Endpoint**:
+4. **Commit & push** ke repo Space → Space akan build & live
 
-   * `POST /predict`  → prediksi kelas diskon
+Akses URL Space:
 
-     * Request JSON:
-
-       ```json
-       {
-         "seq_item_ids": [...],
-         "seq_time_of_day": [...],
-         "seq_price_bin": [...],
-         "seq_weather_lvl": [...],
-         "seq_disc_class": [...],
-         "seq_promo_main_enc": [...]
-       }
-       ```
-     * Response JSON:
-
-       ```json
-       {
-         "pred_class": 2,
-         "probs": [0.1, 0.2, 0.6, 0.1]
-       }
-       ```
+```
+https://huggingface.co/spaces/your-username/discount-recommender
+```
 
 ---
 
-## 5. Deployment dengan Docker
+## 5. Link Publik
 
-1. **Build image**:
-
-   ```bash
-   ```
-
-docker build -t discount-api .
-
-````
-2. **Run container**:
-   ```bash
-docker run -d -p 8000:8000 discount-api
-````
+* **Model:** isi di `Model_TeamX.txt` → misal `https://huggingface.co/your-username/your-model-name`
+* **Dataset:** isi di `Dataset_TeamX.txt` → misal `https://huggingface.co/datasets/your-username/your-dataset-name`
+* **Code:** isi di `Kode_TeamX.txt` → misal `https://github.com/your-username/datathon-discount-model`
 
 ---
 
-## 6. Mengakses Model & Dataset
+## 6. Contoh Panggilan API Spaces
 
-* **Model**: URL pada `Model_TeamX.txt` (Hugging Face Hub)
-* **Dataset**: URL pada `Dataset_TeamX.txt`
-* **Code**: URL pada `Kode_TeamX.txt` (GitHub)
-
----
-
-## 7. Contoh Pemanggilan (cURL)
+Kamu bisa panggil endpoint inference Spaces:
 
 ```bash
-curl -X POST http://localhost:8000/predict \
+curl -X POST https://huggingface.co/spaces/your-username/discount-recommender/run/predict_fn \
   -H "Content-Type: application/json" \
   -d '{
-    "seq_item_ids": [12,3,7,...],
-    "seq_time_of_day": [2,2,1,...],
-    "seq_price_bin": [0,1,2,...],
-    "seq_weather_lvl": [1,1,2,...],
-    "seq_disc_class": [0,0,1,...],
-    "seq_promo_main_enc": [5,5,3,...]
+    "seq_item_ids": [12,3,...],
+    "seq_time_of_day": [2,1,...],
+    "seq_price_bin": [0,1,...],
+    "seq_weather_lvl": [1,2,...],
+    "seq_disc_pct": [0,0.05,...],
+    "seq_promo_main_enc": [4,4,...]
 }'
 ```
 
 ---
 
-## 8. Kontak & Lisensi
+## 7. Kontak & Lisensi
 
-* **Tim**: \[Nama Tim]
-* **Email**: [your-team@example.com](mailto:your-team@example.com)
-* **License**: MIT License
+* **Tim:** \[Nama Tim]
+* **Email:** [your-team@example.com](mailto:your-team@example.com)
+* **License:** MIT
