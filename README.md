@@ -1,8 +1,5 @@
 # AI Discount Recommendation System
 
-README ini menjelaskan cara menggunakan seluruh pipeline AI kamu—mulai dari preprocessing, training, hingga deploy ke Hugging Face Spaces—tanpa Docker atau Streamlit.
-
----
 
 ## 1. Struktur Project
 
